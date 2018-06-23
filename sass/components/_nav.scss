@@ -31,6 +31,12 @@ nav {
   margin-top: 76px;
 }
 
+// how to include mixins
+.brand-logo {
+  @include default-font(2em);
+}
+
+
 ul {
   list-style-type: none;
   -webkit-margin-before: 0px;
@@ -39,5 +45,11 @@ ul {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0px;
  }
+
+//  adding mixins
+li {
+  @include default-font(15px);
+}
+
 }
 // nav ul, .brand-logo
