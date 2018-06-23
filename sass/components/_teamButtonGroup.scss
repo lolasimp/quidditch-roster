@@ -1,0 +1,26 @@
+.team-button-group {
+  display: flex;
+  justify-content: center;
+
+  & > * {
+    margin: 0 20px;
+  }
+}
+
+// WORKS THIS WAY AS WELL
+
+// .team-button-gryffindor {
+//   background-color: $gryffindor;
+// }
+
+// .team-button-ravenclaw {
+//   background-color: $ravenclaw;
+// }
+
+// .team-button-slytherin {
+//   background-color: $slytherin;
+// }
+
+// .team-button-hufflepuff {
+//   background-color: $hufflepuff;
+// }
