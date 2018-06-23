@@ -1,0 +1,78 @@
+@import '../variables';
+
+
+.player-img {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  height: 192px;
+  width: 206px;
+  position: relative;
+}
+
+// Callan design
+
+// .img-holder {
+//   position: relative;
+//   height: 250px;
+//   overflow: hidden;
+// }
+
+// .img {
+//   display: block;
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   width: 100%;
+// }
+
+%player-card {
+  border-radius: 2px;
+  box-shadow: $box-shadow;
+  background-color: $gold;
+
+  @include default-font(20px);
+  margin: 5px;
+}
+
+.player-team-gryffindor {
+  @include default-font(1em);
+  color: $gryffindor;
+  @extend %player-card;
+}
+
+.player-team-slytherin {
+  @include default-font(1em);
+  color: $slytherin;
+  @extend %player-card;
+}
+.player-team-ravenclaw {
+  @include default-font(1em);
+  color: $ravenclaw ;
+  @extend %player-card;
+}
+
+.player-team-hufflepuff {
+  @include default-font(1em);
+  color: $hufflepuff;
+  @extend %player-card;
+}
+// %team-button {
+//   box-shadow: $box-shadow;
+//   @include default-font(1em);
+//   outline: 0;
+//   border: none;
+//   height: 42px;
+//   // container for a text element so the text size cant change the size of the button
+//   line-height: 100px;
+//   padding: 0 15px;
+//   border-radius: 2px;
+
+//   img {
+//     padding-left: 20px;
+//     max-width: 40px;
+//     max-height: 40px;
+//   }
+// }

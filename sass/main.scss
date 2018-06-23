@@ -1,4 +1,10 @@
 @import './components/nav';
 @import './components/playerList';
+@import './components/playerCard';
 @import './components/teamButtonGroup';
 @import './components/teamButton';
+@import './variables';
+
+body {
+  background-color: $darkgray;
+}
