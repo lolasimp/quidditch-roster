@@ -1,7 +1,30 @@
+@import '../variables';
+
+
 .player-list {
   list-style: none;
   display: flex;
   // flex-direction: row;
   // flex-wrap: wrap;
   flex-flow: row wrap;
+  justify-content: center;
+
+  & > * {
+    margin: 0 20px;
+  }
+}
+
+.player-position-chaser {
+  @include default-font(1em);
+}
+
+.player-position-seeker {
+  @include default-font(1em);
+}
+
+.player-position-beater {
+  @include default-font(1em);
+}
+.player-position-keeper {
+  @include default-font(1em);
 }
